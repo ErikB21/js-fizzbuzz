@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    max-width: 80%;
+    width: 1000px;
+    margin: auto;
+    background-color: royalblue;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square{
+    width: 75px;
+    height: 75px;
+    margin: 10px;
+    border: 1px solid black;
+}
